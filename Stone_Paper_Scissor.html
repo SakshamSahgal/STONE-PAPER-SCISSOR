@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="Player_Selections">
+
+         <img src="GUI/Stone.png" onclick="Set_stone()" onmouseover="stone_Hovered()" onmouseleave="stone_Exited()" id="Stone" class="Selection_Buttons" > 
+         <img src="GUI/Paper.png" onclick="Set_paper()" onmouseover="paper_Hovered()" onmouseleave="paper_Exited()"  id="Paper" class="Selection_Buttons"> 
+         <img src="GUI/Scissor.png" onclick="Set_scissor()" onmouseover="scissor_Hovered()" onmouseleave="scissor_Exited()"  id="Scissor" class="Selection_Buttons">
+         <br>
+         <span class="base_heading">  &nbsp; STONE &emsp;&emsp; PAPER &emsp;&emsp; SCISSOR </span>
+        <br><br><br><br>
+         <div id="selections">
+            <img src="GUI/default.png" alt="" id="Your_Move" class="Moves">
+            <img src="GUI/vs.png" alt="" id="VS" class="Moves">
+            <img src="GUI/default.png" alt="" id="Computer_move" class="Moves">
+            <p>  Your Move &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Bot's Move</p>
+        </div>
+
+        <div id="score_board_div">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span id="score_heading">Your Score &emsp;&emsp;&emsp;&emsp;&emsp; Bot's Score </span>
+            <br>
+            <span id="Player_score" class="score_board">0</span>   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span id="computer_score" class="score_board">0</span>
+        </div>
+        <img src="" alt="" id="conclusion">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

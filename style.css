@@ -1,0 +1,50 @@
+#Player_Selections
+{
+    position: absolute;
+    left: 490px;
+    margin-top: 50px;
+}
+
+#body
+{
+    background-image: url("GUI/background.gif");
+    background-size: cover;
+    height: 100%;
+}
+
+.base_heading
+{
+    font-size: 30px;
+}
+
+.Moves
+{
+    height: 100px;
+}
+
+#selections
+{
+    position: relative;
+    left: 85px;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Selection_Buttons
+{
+    height: 170px;
+}
+
+#VS
+{
+    position: relative;
+    top: 0px;
+}
+
+.score_board
+{
+    font-size: 80px;
+    position: relative;
+    left: 120px;
+}
+
